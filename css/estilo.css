@@ -1,0 +1,67 @@
+body{
+    background-color: rgba(0, 0, 0, 0.811);
+}
+
+.alinharRotulos {
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.alinhaBtns {
+    width:30%;
+    background-color: black;
+    color:white;
+    border:0px;
+    padding:5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.carrinho {
+    width:300px; 
+    float:right;
+}
+.carrinho p {
+    display: inline;
+}
+
+caption{
+    background-color: black;
+}
+
+
+table {
+    clear:both; 
+    background-color: rgb(83, 83, 83);
+    border-radius: 3px; 
+    color:white;
+    padding:10px;
+    width:30%;
+    margin:auto;
+}
+caption {
+    color:rgb(255, 255, 255); 
+    font-weight: bold; 
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img{
+    width: 40%;
+
+}
+
+input{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+input:hover{
+    background-color:rgb(39, 166, 89);
+    color: rgb(0, 0, 0);
+}

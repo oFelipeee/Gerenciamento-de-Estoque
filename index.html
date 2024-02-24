@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GERENCIAMENTO DE ESTOQUE:</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/funcoes.js"></script>
+</head>
+
+
+
+<body onload="carregarTotalEstoque('totalEstoque')">
+
+    <div class="carrinho">
+        <img src="img/carrinhoCompras.png">
+        <p>Carrinho: <span id="totalEstoque">0</span></p>
+    </div>
+    
+
+
+    <form>
+        <table>
+
+            <caption>CADASTRO DE PRODUTOS:</caption>
+
+
+            <tr>
+                <td class="alinharRotulos">Nome do produto:</td>
+                <td><input id="txtNomeProduto" type="text"></td>
+            </tr>
+
+
+            <tr>
+                <td class="alinharRotulos">Código do produto:</td>
+                <td><input id="txtCodProduto" type="text"></td>
+            </tr>
+
+            <tr>
+                <td class="alinharRotulos">Descrição do produto:</td>
+                <td><input id="txtCodProduto" type="text"></td>
+            </tr>
+
+            <tr>
+                <td class="alinharRotulos">Quantidade do produto:</td>
+                <td>
+
+
+                    <select id="qtidadeProduto">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="10">12</option>
+                        <option value="10">13</option>
+                        <option value="10">14</option>
+                        <option value="10">15</option>
+                        <option value="10">16</option>
+                        <option value="10">17</option>
+                        <option value="10">18</option>
+                        <option value="10">19</option>
+                        <option value="10">20</option>
+                        <option value="10">21</option>
+                        <option value="10">22</option>
+                        <option value="10">23</option>
+                        <option value="10">24</option>
+                        <option value="10">25</option>
+                    </select>
+                </td>
+            </tr>
+            
+            
+
+
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Cadastrar" class="alinhaBtns" onclick="validarProduto('txtNomeProduto','txtCodProduto','qtidadeProduto')">
+                    <input type="button" value="Ver estoque" class="alinhaBtns" onclick="window.open('verEstoque.html','_self')">
+                    <input type="reset" value="Limpar" class="alinhaBtns">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
